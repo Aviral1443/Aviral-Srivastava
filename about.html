@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+
+        body
+        {
+            background-color: black;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .About{
+            
+            display: flex;
+            justify-content: center;
+        }
+
+        /* .About p{
+            width: 60%;
+        } */
+
+        .about-pic{
+            margin-top: 120px;
+            height: 250px;
+            width: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .timeline {
+          border-left: 1px solid hsl(0, 0%, 90%);
+          position: relative;
+          list-style: none;
+          
+        }
+
+        .timeline .timeline-item {
+          position: relative;
+        }
+
+        .timeline .timeline-item:after {
+          position: absolute;
+          display: block;
+          top: 0;
+          color: white;
+        }
+
+        .timeline .timeline-item:after {
+          background-color: hsl(0, 0%, 90%);
+          left: -38px;
+          border-radius: 50%;
+          height: 11px;
+          width: 11px;
+          content: "";
+          
+        }
+        
+
+    </style>
+
+
+    <title>About Me</title>
+</head>
+<body>
+
+    <section>
+        <div class="About">
+            <img class="about-pic" src="./assets/About Me.jpg">
+        </div>
+
+        <div class="About"><H1 style="font-size: 60px; margin: 60px 0px 20px 0px; font-weight: 800;">Hi, It's Aviral</H1></div>
+        
+        <div class="About">
+            <p style="width: 50%; text-align: center;">I am a budding Developer with interests in Web Dev and Data Structures in Java. I also love various
+            sports like Cricket, Badminton and Racing and in my free time I like to learn about cars and tech products.</p>
+        </div>
+    </section>
+
+
+    <section class="Me" style="display: flex; justify-content: center; margin-top: 80px;">
+      <div class="col-md-9">
+        <h1>Getting to know me :</h1>
+        <p>
+          "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"      
+        </p>
+      </div>
+    </section>
+
+
+    <section class="Edu">
+
+        <div style="display: flex; justify-content: center;">
+            <div class="accordion col-md-9" id="accordionExample">
+                <h1 style="margin-top: 80px; margin-bottom: 20px;">Educational Career : </h1>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-dark-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      High School
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample"> 
+                    <div class="accordion-body">
+                      I was a student in St. Joseph's College, Prayagraj for 11 years, starting all the way back in in 2009 when I gave the enterence exam. My time in the College was nothing short of a dream. It all cumulated with me <strong>scoring 94.6% in in my High School</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Intermediate
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      If my  HighSchool was all sunshine and roses my Intermediate was anything but. With the incoming of the pandemic and all of my family getting CoVid, twice, and the overall lack of motivation to study, lack of interaction with my friends, and the overall gloom, I was very happy to still<strong> score more that 90% in my InterMediates</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      JEE Mains
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      I took a drop year because I needed time to catchup with all the important concepts and theory from class 11 and 12. I prepared for JEE mains in 2022-23 and gave the exam in 2023. <strong> I got a percentile of 96.7% in JEE Mains 2023</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      JEE Advanced
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      My preperation for JEE Advanced was not as well rounded as my preperation for JEE Mains which <strong>Resulted in a Rank of 21091</strong>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievements">
+      <div style="display: flex; justify-content: center;">
+
+          <!-- Section: Timeline -->
+          <section class="py-5 col-md-9">
+            <ul class="timeline">
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Got into St. Joseph's College</h5>
+                <p class=" mb-2 fw-bold">2009</p>
+                <p class="">
+                  I got into my main Educational institution all the way back in 2009 and I had been there for a total of 13 years.
+                  Most of my best memories of my childhood are from there. My School helped my to develop the character that I am today.
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Placed 3rd In College</h5>
+                <p class=" mb-2 fw-bold">2013</p>
+                <p class="">
+                  In 2013 I took part in the International Maths Olympiad held by the Science Olympiad Foundation and i secured
+                  3rd palace in my college as well as 19th in the city.
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Placed 2nd in College</h5>
+                <p class=" mb-2 fw-bold">2014</p>
+                <p class="">
+                  The following year I once again took part in the Maths Olympiad held by SOF and secured a 2nd place in my college as well as a 2nd place in the city and I was in the top 30 in the State.
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Placed 1st in College</h5>
+                <p class=" mb-2 fw-bold">2015</p>
+                <p class="">
+                  FINALLY! After 3 years of just missing out on the dub I finally got it in 2015 with a First place in the 
+                  college and 4th in the city. I was once again in the top 50 in the State.
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Succesfully showcased the process of Electroplating</h5>
+                <p class=" mb-2 fw-bold">2018</p>
+                <p class="">
+                  In a Science Fair which constitued of over 200 different exibits in various fields, my group held my own succesfully showcasing 
+                  the process of Electroplating.
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Got First for a working physics model</h5>
+                <p class=" mb-2 fw-bold">2019</p>
+                <p class="">
+                  Returning to the same Science Fair the following year me along with my friend secured the first place in the Physics Working Model
+                  category, succesfully showcasing the principle and working of the Hydraulic components of various industry eqipments.
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Scored 207/210 in NTSE</h5>
+                <p class=" mb-2 fw-bold">2019</p>
+                <p class="">
+                  I took part in the National Talent Search Examination conducted by FIITJEE and scored 207/210 in the 
+                  Logical Reasoning section of the exam and tieing as the topper in the Country.
+                </p>
+              </li>
+
+              <li class="timeline-item mb-5">
+                <h5 class="fw-bold">Attended a JAVA course</h5>
+                <p class=" mb-2 fw-bold">2019-2021</p>
+                <p class="">
+                  Despite the hardships due to the emergence of the Pandemic I attended a thoroughly detailed JAVA course at Expert's Institute
+                  which has helped me to gain the knowledge and experience in Programming that I have.
+                </p>
+              </li>
+            </ul>
+          </section>
+          <!-- Section: Timeline -->
+
+      </div>
+    </section>
+
+
+    <section class="interests">
+      <div style="display: flex; justify-content: center;">
+        <div class="col-12 col-md-9">
+          <h1>Hobbies and Interests: </h1>
+
+
+          <div>
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
